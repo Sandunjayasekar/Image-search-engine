@@ -1,12 +1,12 @@
 const searchForm = document.getElementById('search-form');
 const searchBox = document.getElementById('search-box');
-const searchResult = document.querySelector('.search-result');
+const searchResult = document.getElementById('search-result');
 const loadMore = document.getElementById('load-more');
 
 // api key
-const apiKey = "AIzaSyDl7w6w2yH8s8Fw9XZTn8j4XG6fJ-6zZxw";
+const apiKey = "VAcIY6TUR16osJDQLlVthTgoMA4vbaSSPw0_sqRL6bE";
 
-let keyWord = '';
+let keyWord = "";
 let page = 1;
 
 async function searchImages() {
